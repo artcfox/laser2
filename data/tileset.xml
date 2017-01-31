@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<gfx-xform version="1">
+  <input file="tileset.png" type="png" tile-width="8" tile-height="8" />
+  <output file="tileset.inc" remove-duplicate-tiles="true">
+    <tiles var-name="tileset"/>
+    <maps pointers-size="8">
+      <map var-name="map_prev" left="5" top="0" width="2" height="1" />
+      <map var-name="map_next" left="7" top="0" width="2" height="1" />
+      <map var-name="map_next_red" left="9" top="0" width="2" height="1" />
+      <map var-name="map_move_to_grid" left="12" top="0" width="5" height="1" />
+      <map var-name="map_targets" left="18" top="0" width="4" height="1" />
+      <map var-name="map_level" left="22" top="0" width="2" height="1" />
+      <map var-name="map_laser_puzzle_ii" left="25" top="0" width="7" height="1" />
+      
+      <map var-name="map_gap_h" left="5" top="2" width="1" height="1" />
+      <map var-name="map_gap_v" left="9" top="2" width="1" height="1" />
+
+      <map var-name="map_blank" left="0" top="1" width="3" height="3" />
+      <map var-name="map_blank_on_h" left="4" top="1" width="3" height="3" />
+      <map var-name="map_blank_on_v" left="8" top="1" width="3" height="3" />
+      <map var-name="map_blank_on_hv" left="12" top="1" width="3" height="3" />
+      <map var-name="map_blank_highlight" left="16" top="1" width="3" height="3" />
+      
+      <map var-name="map_laser_t" left="0" top="5" width="3" height="3" />
+      <map var-name="map_laser_r" left="4" top="5" width="3" height="3" />
+      <map var-name="map_laser_b" left="8" top="5" width="3" height="3" />
+      <map var-name="map_laser_l" left="12" top="5" width="3" height="3" />
+
+      <map var-name="map_laser_on_t" left="16" top="5" width="3" height="3" />
+      <map var-name="map_laser_on_r" left="20" top="5" width="3" height="3" />
+      <map var-name="map_laser_on_b" left="24" top="5" width="3" height="3" />
+      <map var-name="map_laser_on_l" left="28" top="5" width="3" height="3" />
+
+      <map var-name="map_mirror_target_opt_br" left="0" top="9" width="3" height="3" />
+      <map var-name="map_mirror_target_opt_bl" left="4" top="9" width="3" height="3" />
+      <map var-name="map_mirror_target_opt_tl" left="8" top="9" width="3" height="3" />
+      <map var-name="map_mirror_target_opt_tr" left="12" top="9" width="3" height="3" />
+
+      <map var-name="map_mirror_on_target_opt_br" left="16" top="9" width="3" height="3" />
+      <map var-name="map_mirror_on_target_opt_bl" left="20" top="9" width="3" height="3" />
+      <map var-name="map_mirror_on_target_opt_tl" left="24" top="9" width="3" height="3" />
+      <map var-name="map_mirror_on_target_opt_tr" left="28" top="9" width="3" height="3" />
+
+      <map var-name="map_mirror_target_on_br" left="32" top="9" width="3" height="3" />
+      <map var-name="map_mirror_target_on_bl" left="36" top="9" width="3" height="3" />
+      <map var-name="map_mirror_target_on_tl" left="40" top="9" width="3" height="3" />
+      <map var-name="map_mirror_target_on_tr" left="44" top="9" width="3" height="3" />
+
+      <map var-name="map_mirror_target_req_br" left="0" top="13" width="3" height="3" />
+      <map var-name="map_mirror_target_req_bl" left="4" top="13" width="3" height="3" />
+      <map var-name="map_mirror_target_req_tl" left="8" top="13" width="3" height="3" />
+      <map var-name="map_mirror_target_req_tr" left="12" top="13" width="3" height="3" />
+
+      <map var-name="map_mirror_on_target_req_br" left="16" top="13" width="3" height="3" />
+      <map var-name="map_mirror_on_target_req_bl" left="20" top="13" width="3" height="3" />
+      <map var-name="map_mirror_on_target_req_tl" left="24" top="13" width="3" height="3" />
+      <map var-name="map_mirror_on_target_req_tr" left="28" top="13" width="3" height="3" />
+
+      <map var-name="map_mirror_on_target_on_br" left="32" top="13" width="3" height="3" />
+      <map var-name="map_mirror_on_target_on_bl" left="36" top="13" width="3" height="3" />
+      <map var-name="map_mirror_on_target_on_tl" left="40" top="13" width="3" height="3" />
+      <map var-name="map_mirror_on_target_on_tr" left="44" top="13" width="3" height="3" />
+
+      <map var-name="map_split_trbl" left="0" top="17" width="3" height="3" />
+      <map var-name="map_split_trbl_on_l" left="4" top="17" width="3" height="3" />
+      <map var-name="map_split_trbl_on_t" left="8" top="17" width="3" height="3" />
+      <map var-name="map_split_trbl_on_r" left="12" top="17" width="3" height="3" />
+      <map var-name="map_split_trbl_on_b" left="16" top="17" width="3" height="3" />
+      <map var-name="map_split_trbl_on_a" left="20" top="17" width="3" height="3" />
+
+      <map var-name="map_split_tlbr" left="24" top="17" width="3" height="3" />
+      <map var-name="map_split_tlbr_on_l" left="28" top="17" width="3" height="3" />
+      <map var-name="map_split_tlbr_on_t" left="32" top="17" width="3" height="3" />
+      <map var-name="map_split_tlbr_on_r" left="36" top="17" width="3" height="3" />
+      <map var-name="map_split_tlbr_on_b" left="40" top="17" width="3" height="3" />
+      <map var-name="map_split_tlbr_on_a" left="44" top="17" width="3" height="3" />
+
+      <map var-name="map_dbl_mirror_trbl" left="0" top="21" width="3" height="3" />
+      <map var-name="map_dbl_mirror_trbl_on_tl" left="4" top="21" width="3" height="3" />
+      <map var-name="map_dbl_mirror_trbl_on_br" left="8" top="21" width="3" height="3" />
+      <map var-name="map_dbl_mirror_trbl_on_a" left="12" top="21" width="3" height="3" />
+
+      <map var-name="map_dbl_mirror_tlbr" left="16" top="21" width="3" height="3" />
+      <map var-name="map_dbl_mirror_tlbr_on_bl" left="20" top="21" width="3" height="3" />
+      <map var-name="map_dbl_mirror_tlbr_on_tr" left="24" top="21" width="3" height="3" />
+      <map var-name="map_dbl_mirror_tlbr_on_a" left="28" top="21" width="3" height="3" />
+
+      <map var-name="map_checkpoint_tcbc" left="0" top="25" width="3" height="3" />
+      <map var-name="map_checkpoint_on_tcbc" left="4" top="25" width="3" height="3" />
+      <map var-name="map_checkpoint_lcrc" left="8" top="25" width="3" height="3" />
+      <map var-name="map_checkpoint_on_lcrc" left="12" top="25" width="3" height="3" />
+
+      <map var-name="map_cell_blocker" left="0" top="29" width="3" height="3" />
+      <map var-name="map_cell_blocker_on_h" left="4" top="29" width="3" height="3" />
+      <map var-name="map_cell_blocker_on_v" left="8" top="29" width="3" height="3" />
+      <map var-name="map_cell_blocker_on_hv" left="12" top="29" width="3" height="3" />
+    </maps>
+  </output>
+</gfx-xform>
